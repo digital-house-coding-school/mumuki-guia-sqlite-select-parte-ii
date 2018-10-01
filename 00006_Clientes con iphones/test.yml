@@ -1,0 +1,2 @@
+- type: query
+  expected: SELECT DISTINCT clientes.nombre, clientes.apellido from clientes left join ventas ON ventas.id_cliente = clientes.id left JOIN productos ON productos.id = ventas.id_producto where productos.nombre like "iphone%" order by apellido;
