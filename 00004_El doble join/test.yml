@@ -1,0 +1,2 @@
+- type: query
+  expected: SELECT clientes.nombre, clientes.apellido, productos.nombre from clientes inner join ventas ON ventas.id_cliente = cliente.id INNER JOIN productos ON productos.id = ventas.id_producto;
