@@ -1,0 +1,2 @@
+- type: query
+  expected: SELECT productos.nombre, categorias.nombre from productos LEFT JOIN categorias ON categorias.id = productos.id_categoria WHERE puntuacion > 3;
