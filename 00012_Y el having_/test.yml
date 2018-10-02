@@ -1,0 +1,2 @@
+- type: query
+  expected: SELECT marcas.nombre, categorias.nombre, COUNT(*) as cantidad from marcas INNER JOIN productos on productos.id_marca = marcas.id INNER JOIN categorias on categorias.id = productos.id_categoria GROUP BY marcas.nombre, categorias.nombre HAVING count(*) >= 2;
