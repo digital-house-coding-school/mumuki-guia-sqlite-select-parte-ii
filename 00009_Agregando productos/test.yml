@@ -1,0 +1,2 @@
+- type: query
+  expected: SELECT COUNT(*) as cantidad, MAX(puntuacion) as puntuacion_maxima, MIN(precio) as precio_minimo, AVG(puntuacion) as promedio_puntuacion, SUM(precio) as suma_precios from productos;
