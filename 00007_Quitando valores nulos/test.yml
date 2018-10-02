@@ -1,0 +1,2 @@
+- type: query
+  expected: SELECT nombre, coalesce(modelo, "No aplica") as modelo from productos;
