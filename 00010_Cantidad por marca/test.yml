@@ -1,2 +1,2 @@
 - type: query
-  expected: SELECT COUNT(*) , marcas.nombre from marcas LEFT JOIN productos on productos.id_marca = marca.id GROUP BY marcas.nombre;
+  expected: SELECT marcas.nombre, COUNT(*) as cantidad from marcas LEFT JOIN productos on productos.id_marca = marcas.id GROUP BY marcas.nombre;
