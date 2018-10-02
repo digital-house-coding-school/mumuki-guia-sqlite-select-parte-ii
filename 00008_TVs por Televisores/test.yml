@@ -1,0 +1,2 @@
+- type: query
+  expected: SELECT replace(nombre, "TV", "Televisor") as nombre from productos;
