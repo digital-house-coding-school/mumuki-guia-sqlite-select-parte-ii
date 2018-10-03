@@ -10,4 +10,4 @@ Para esto vas a tener que:
 
 > 4. Quitar resultados repetidos
 
-> 5. Agregar un orden por apellido
+> 5. Agregar un orden por apellido (Ascendientemente)
