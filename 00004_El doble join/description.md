@@ -9,18 +9,10 @@ Recordemos la tabla de ventas:
         "pk": true
       },
       "id_cliente" : {
-        "type": "Integer",
-        "fk": {
-          "to": { "entity": "ventas", "column": "id" },
-          "type": "many_to_one"
-        }
+        "type": "Integer"
       },
       "id_producto" : {
-        "type": "Integer",
-        "fk": {
-          "to": { "entity": "ventas", "column": "id" },
-          "type": "many_to_one"
-        }
+        "type": "Integer"
       }
     }
   }'>
