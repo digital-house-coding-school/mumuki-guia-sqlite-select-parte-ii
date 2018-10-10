@@ -8,6 +8,6 @@ Para esto tendras que:
 
 > 2. Agrupar los resultados por marca y por categoría
 
-> 3. Aclarar mediante **having** que solamente queremos ver aquellos resultados que tengan más de 2 productos.
+> 3. Aclarar mediante **having** que solamente queremos ver aquellos resultados que tengan al menos 2 productos.
 
 > 4. Incluir al principio del select los datos necesarios. El órden correcto será primero el nombre de la marca, luego el nombre de la categoria y finalmente la cantidad. La columna con la cantidad debe llamarse **cantidad**
